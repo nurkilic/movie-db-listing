@@ -62,7 +62,7 @@ export const movieSlice = createSlice({
     },
     setLanguage: (state, action: PayloadAction<string>) => {
       state.language = action.payload;
-      state.langParam = state.language === "TR" ? "tr-TR" : "EN" ? "en-US" : "";
+      state.langParam = state.language === "TR" ? "tr-TR" : state.language === "EN" ? "en-US" : "";
     },
     setClickedSearch: (state, action: PayloadAction<boolean>) => {
       state.clickedSearch = action.payload;
