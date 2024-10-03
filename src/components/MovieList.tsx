@@ -72,7 +72,7 @@ const MovieList = ({ data, isLoading }: any) => {
         return (
           <div
             key={item?.id}
-            className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2 cursor-pointer"
+            className="w-full max-sm:mx-3 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-2 cursor-pointer"
             onClick={() => handleClick(item)}
           >
             {!imageLoaded && (
