@@ -17,7 +17,7 @@ const Language = () => {
     <div className="mr-4">
       <Select
         defaultValue={language}
-        style={{ width: 60 }}
+       style={{ width: 70, paddingLeft:1 }}
         onChange={handleChange}
         options={[
           {
