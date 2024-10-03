@@ -92,7 +92,7 @@ const MovieList = ({ data, isLoading }: any) => {
                 </div>
               )}
               <img
-                className={`w-full h-[264px] object-cover ${
+                className={`w-full h-[calc(100vh/3)] object-cover object-top ${
                   isTrendingPage ? "rounded-none" : "rounded-t-lg"
                 }`}
                 src={
