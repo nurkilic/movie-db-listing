@@ -1,0 +1,167 @@
+body,
+html {
+  min-height: 100vh;
+  background-color: #10141e;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ant-select-selector {
+  border-radius: 15px !important;
+  border-color: transparent !important;
+  background-color: rgb(189, 190, 199) !important;
+}
+
+.segment-item1 {
+  border-radius: 15px !important;
+}
+
+.segment-item2 {
+  border-radius: 15px !important;
+}
+
+.segment-item1:hover {
+  color: inherit !important;
+}
+.segment-item2:hover {
+  color: inherit !important;
+}
+.segment {
+  background-color: transparent !important;
+}
+
+.ant-pagination-item {
+  background-color: transparent !important ;
+  color: white !important ;
+  border-radius: 15px !important ;
+  border: 1px solid white !important;
+}
+
+.ant-pagination-item-link {
+  border: 1px solid white !important ;
+}
+
+.ant-pagination-item-link span svg {
+  fill: white;
+}
+.ant-pagination-item-active {
+  border: 3px solid white !important;
+  background-color: rgb(58, 84, 95) !important;
+}
+
+.ant-pagination-item a {
+  color: white !important ;
+}
+.ant-segmented-item-selected {
+  color: white !important;
+
+  background-color: #256982 !important;
+
+  transition: color 0.5s ease !important;
+}
+.ant-segmented-thumb {
+  background-color: #256982 !important;
+
+  color: black !important;
+  border-radius: 15px !important;
+  padding-right: 1px;
+  padding-left: 1px;
+
+  transition: color 0.5s ease !important;
+}
+
+.searchbutton {
+  background: linear-gradient(to left, rgb(67, 68, 90), rgb(123, 120, 120));
+}
+input:focus {
+  outline: none;
+}
+
+.ant-menu-item-selected {
+  background-color: transparent !important;
+}
+.ant-menu-item,
+.ant-menu-submenu {
+  font-size: 16px;
+  transition: none;
+}
+
+.ant-segmented-item-label {
+  font-weight: 500 !important;
+}
+.ant-menu-submenu-selected {
+  border-radius: 4px;
+}
+
+.ant-menu-item:hover {
+  background-color: transparent !important;
+}
+
+.ant-menu-item-icon:hover {
+  color: #d83232 !important;
+  transition: none !important;
+}
+
+.ant-menu-item .anticon {
+  transition: none !important;
+}
+
+.ant-dropdown-menu {
+  background-color: #256982 !important;
+}
+.ant-dropdown-menu-submenu-popup {
+  border-radius: 15px;
+  color: white !important;
+}
+
+.ant-dropdown-menu-submenu-popup .ant-dropdown-menu-item:nth-child(2),
+.ant-dropdown-menu-submenu-popup .ant-dropdown-menu-item:nth-child(3) {
+  color: white !important;
+}
+
+.ant-dropdown-menu-submenu-popup .ant-dropdown-menu-item {
+  color: white !important;
+}
+
+.ant-dropdown-menu-item {
+  color: white !important;
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: #a1a9cd !important;
+  color: white !important;
+}
+.ant-space-item {
+  background-color: #10141e !important;
+}
+
+.ytp-cued-thumbnail-overlay,
+.ytp-cued-thumbnail-overlay {
+  width: 50px !important;
+}
+
+.ant-progress-text {
+  color: white !important;
+  font-size: 13px !important;
+}
+
+@media not all and (min-width: 1024px) {
+  .content {
+    padding: 0px !important;
+    padding-left: 4px !important;
+    margin-right: 4px !important;
+  }
+
+  .ant-layout-header {
+    padding-left: 0px !important;
+  }
+}
+
+.ant-skeleton,
+.ant-skeleton-element {
+  width: 100% !important;
+}
+.ant-skeleton-button {
+  width: 100% !important;
+  height: 356px !important;
+}
