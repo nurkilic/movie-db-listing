@@ -4,7 +4,7 @@ This project is a web application that lists movies using [The Movie Database (T
 
 ## Live Site
 
-[Live Site URL - To be Deployed on Netlify](#)
+[Live Site URL - To be Deployed on Netlify](https://moviedb-film-listing.netlify.app)
 
 ## Technologies Used
 
